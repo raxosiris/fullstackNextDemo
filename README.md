@@ -27,7 +27,7 @@ To persist the data, the backend interacts with MongoDB, the host for which can 
 * Install the dependencies with `yarn install`
 * Run the dev server with `yarn dev`
 
-You should now have a running instance on localhos:3000
+You should now have a running instance on localhost:3000
 
 Huzzah.
 

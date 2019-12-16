@@ -111,6 +111,7 @@ const IndexPage: NextPage<Props> = () => {
                                 method: "post",
                                 headers: { "Content-Type": "application/json" },
                                 body: JSON.stringify({
+                                  id: d.id,
                                   name: e.target[0].value,
                                   email: e.target[1].value,
                                   dob: e.target[2].value

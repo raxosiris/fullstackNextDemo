@@ -8,7 +8,6 @@ export default async (_: NextApiRequest, res: NextApiResponse) => {
     await mongoConnection();
   } catch (e) {}
   try {
-    console.log(process.env)
     const manager = getMongoRepository(User);
     const users = await manager.find();
     res.status(200).json(users);

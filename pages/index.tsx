@@ -71,6 +71,14 @@ const IndexPage: NextPage<Props> = () => {
               dataIndex: "dob"
             },
             {
+              title: "Created",
+              dataIndex: "createdAt"
+            },
+            {
+              title: "Updated",
+              dataIndex: "updatedAt"
+            },
+            {
               title: "Actions",
               dataIndex: "actions"
             }

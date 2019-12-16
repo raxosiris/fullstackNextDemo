@@ -1,4 +1,4 @@
-import {Entity, ObjectID, ObjectIdColumn, Column} from "typeorm";
+import {Entity, ObjectID, ObjectIdColumn, Column, CreateDateColumn, UpdateDateColumn} from "typeorm";
 
 @Entity()
 export class User {
@@ -17,5 +17,10 @@ export class User {
     
     @Column()
     dob: Date;
-    
+
+    @CreateDateColumn()
+    createdAt: Date;
+
+    @UpdateDateColumn()
+    updatedAt: Date;
 }

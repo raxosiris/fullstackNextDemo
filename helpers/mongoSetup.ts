@@ -1,7 +1,6 @@
 import { createConnection} from "typeorm";
 import { User } from "../models/userModel";
 
-
 export const mongoConnection = () =>  createConnection({
     type: "mongodb",
     host: process.env.MONGO_HOST || "localhost",

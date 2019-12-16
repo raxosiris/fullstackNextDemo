@@ -1,0 +1,30 @@
+* {
+    font-family: "Cera_Pro", sans-serif;
+  }
+  body {
+    background-color: #f6f7fb;
+    font-size: calc(12px + 0.35vw); /* Responsive base font size */
+    line-height: calc(12px + 1.05vw); /* Responsive Vertical Rhythm */
+  }
+  h1, h2, h3, h4, h5, h6 {
+    margin: calc(12px + 1.05vw) 0; /* Responsive margins */
+  }
+  @font-face {
+    font-family: "Cera_Pro";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/static/fonts/Cera_Pro_Regular.otf") format("opentype");
+  }
+  @font-face {
+    font-family: "Brandon";
+    font-style: medium;
+    font-weight: 500;
+    src: url("/static/fonts/Cera_Pro_Medium.otf") format("opentype");
+  }
+  @font-face {
+    font-family: "Cera_Pro";
+    font-style: bold;
+    font-weight: 600;
+    src: url("/static/fonts/Cera_Pro_Bold.otf") format("opentype");
+  }
+  
